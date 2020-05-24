@@ -1,0 +1,204 @@
+nav {
+    height: 6px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    list-style-type: none;
+}
+
+.item_link {
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 300;
+    font-style: normal;
+    line-height: 3px;
+    color: #3b3b3b;
+}
+
+.subheader {
+    margin-top: 60px;
+}
+
+.subheader_logo {
+    width: 960px;
+    height: 817px;
+    background-color: #ffffff;
+
+}
+
+.subheader_icon {
+    width: 10px;
+    height: 13.5px;
+}
+
+.subheader_text {
+    padding-left: 40px;
+    font-size: 8px;
+    font-weight: 400;
+    color: #3b3b3b;
+    text-align: center;
+}
+
+.icon_border {
+    border-radius: 100px;
+    border: solid 0.5px #f27935;
+    padding: 10px;
+}
+
+.text_number {
+    font-size: 9px;
+    font-weight: 300;
+    color: #838383;
+    text-align: center;
+    margin-top: 1px;
+
+}
+
+.subheader_phone {
+    font-size: 11.5px;
+    font-weight: bold;
+    line-height: 1.26;
+    color: #3b3b3b;
+
+}
+
+.part_phone {
+    color: #913d88;
+}
+
+.subheader_btn {
+    width: 90px;
+    height: 25.5px;
+    box-shadow: inset 0px -1.5px 0 0 rgba(0, 0, 0, 0.11);
+    background-image: linear-gradient(to top, #f27935, #f27935, #f2b235);
+    border: none;
+    font-size: 9px;
+    line-height: 1.75;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+    margin-top: 2px;
+
+}
+
+
+.promo {
+    min-height: 500px;
+    background: url("../bg/Layer\ 154.jpg") center center/cover no-repeat;
+}
+
+h1 {
+    padding-top: 50px;
+    font-size: 28px;
+    font-weight: bold;
+    font-style: normal;
+    line-height: 1.05;
+    text-align: left;
+    color: #ffffff;
+}
+
+.promo_descr {
+    font-size: 11px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.22;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+}
+
+input {
+    margin-top: 25px;
+    width: 200px;
+    height: 30px;
+    border: solid 1.5px rgba(0, 0, 0, 0.15);
+    background-color: #ffffff;
+}
+
+.promo_btm {
+    width: 100.5px;
+    height: 30px;
+    box-shadow: inset 0px -2px 0 0 rgba(0, 0, 0, 0.11);
+    border: solid 1.5px rgba(0, 0, 0, 0.15);
+    background-image: linear-gradient(to top, #f27935, #f27935, #f2b235);
+    text-shadow: -0.4px -0.4px 0 rgba(0, 0, 0, 0.15);
+    font-size: 11px;
+    text-align: center;
+    color: #ffffff;
+}
+
+
+.stage {
+    min-height: 900px;
+}
+
+.title_stage {
+    padding: 35px 300px;
+    overflow: hidden;
+    text-align: center;
+    font-size: 22px;
+    line-height: 0.79;
+    color: #3b3b3b;
+    font-weight: 800;
+}
+
+
+
+
+
+.title_stage:before,
+.title_stage:after {
+    content: "";
+    /* Свойства линий, выравнивание по центру по вертикали */
+    display: inline-block;
+    vertical-align: middle;
+    /* Ширина - 100% и указываем толщину линии */
+    width: 100%;
+    height: 2px;
+    /* Цвет линии */
+    background-color: #3b3b3b;
+    /* Возможность для пседоэлементов изменить позицию линии */
+    position: relative;
+}
+
+.title_stage:before {
+    /* Ставим левую линию слева от текста, смещая ее на 100% влево */
+    margin-left: -100%;
+    /* Отступ линии от заголовка */
+    left: -14px;
+}
+
+.title_stage:after {
+    /* Ставим правую линию справа от текста, смещая ее на 100% вправо */
+    margin-right: -100%;
+    /* Отступ линии от заголовка */
+    right: -14px;
+}
+
+
+.stage_round {
+    padding-top: 10px;
+}
+
+.descr_stage {
+    text-align: center;
+    padding-top: 20px;
+    /* padding-right: 50px; */
+    width: 185px;
+    height: 15px;
+    font-size: 13px;
+    font-weight: 400;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #913d88;
+}
+
+.stage_round_two {
+    padding-top: 50px;
+}
