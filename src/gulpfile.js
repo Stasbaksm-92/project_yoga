@@ -25,7 +25,12 @@ gulp.task('styles', function () {
             suffix: '.min',
             prefix: ''
         }))
-        .pipe(autoprefixer())
+        .pipe(autoprefixer({
+            browsers: ['last 2 versions'],
+            cascade: false
+        }))
+
+
         .pipe(cleanCSS({
             compatibility: 'ie8'
         }))
@@ -35,6 +40,7 @@ gulp.task('styles', function () {
 
 gulp.task('watch', function () {
     gulp.watch("src/sass/**/*.+(scss|sass)", gulp.parallel('styles'));
-})
+    gulp.watch("src/*html").on("change", browserSync.reload);
+});
 
 gulp.task('default', gulp.parallel('watch', 'server', 'styles'));
